@@ -54,19 +54,7 @@ export default function handler(req, res) {
             price: 750,
             image: "https://cdn.pixabay.com/photo/2022/11/09/13/58/cheeseburger-7580676_960_720.jpg",
         },
-
-
-
-
-
-
-
-
-
-
-
-
-        
+  
     ];
     res.status(200).json(products);
 }

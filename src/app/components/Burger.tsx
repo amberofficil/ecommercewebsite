@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 
 const products = [
     {
@@ -6,7 +7,7 @@ const products = [
     title:"Mexican Burger",
     category: "Fixing",
     price:"200.00",
-    imgUrl: "/heroimg1.png",
+    imgUrl: "/burger1.jpg",
     bgColor:"bg-amber-500"
     },
     {
@@ -14,7 +15,7 @@ const products = [
       title:"Classic Burger",
       category: "delights",
       price:"150.00",
-      imgUrl: "/heroimg2.jpg",
+      imgUrl: "/burgerimg2.jpg",
       bgColor:"bg-teal-500"
       },
       {
@@ -41,7 +42,7 @@ export default function Burger() {
             <div className='block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3'
             style={{background: "radial-gradient(black, transparent 50%)", transform: "rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1", opacity:0.2}}>
            </div>
-           <img className='relative w-50' src={product.imgUrl} alt={product.title}/>
+           <Image className='relative' src={product.imgUrl} alt={product.title} width={200} height={200}/>
             </div>
 
             <div className='relative text-white px-6 pb-6 mt-6'>

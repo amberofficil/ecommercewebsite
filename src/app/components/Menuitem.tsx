@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 
 import Productcart from "./Productcart";
-import { Product } from "@/pages/types";
+import { Product } from "@/pages/types"
 
 
 const Menuitem = () =>  {

@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 import { FaHamburger } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
 import { FaBolt } from "react-icons/fa";
@@ -30,10 +31,11 @@ export default function Navbar() {
         
         {/* cart */}
         <FaCartShopping className='w-8 h-8 text-sky-300 rounded-full p-1 relative hover:text-amber-300'/>
-        <img 
-        className='inline-block w-8 h-8 rounded-full ring-sky-300 hover:text-amber-300'
+        <Image 
+        className='inline-block  rounded-full ring-sky-300 hover:text-amber-300'
         src="/img1.jpg"
-        alt="user avtar"/>
+        alt="user avtar"
+        width={25} height={25}/>
         </div>
         </div>
         </div>

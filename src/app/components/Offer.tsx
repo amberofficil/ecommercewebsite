@@ -1,6 +1,7 @@
 "use client"
 
-import React from 'react'
+import React from 'react';
+
 
 type Offer = {
   title: string;

@@ -1,4 +1,6 @@
 import React from 'react'
+import Image from 'next/image'
+
 
 const FloatingImageContentBlock = () => {
   return(
@@ -36,8 +38,10 @@ const FloatingImageContentBlock = () => {
         </div>
 
         <div className='md:w-1/2 mt-6 md:mt-0'>
-        <img src='https://img.freepik.com/free-vector/restaurant-mural-wallpapper_23-2148706001.jpg?t=st=1727452947~exp=1727456547~hm'
+        <Image src="/card1.jpg"
          alt='delicious burger'
+         width={300} height={300}
+         
          className='w-full h-auto rounded-lg shadow-lg transition-transform duration-500 ease-in-out transform hover:scale-105 mr-7'/>
 
         </div>

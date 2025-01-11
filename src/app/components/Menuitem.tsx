@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
 import Productcart from "./Productcart";
 import { Product } from "@/pages/types"
@@ -53,7 +54,7 @@ const Menuitem = () =>  {
                 <div className=" inset-0 bg-cover bg-center opacity-10 animate-background"
                 style={{
                     backgroundImage:
-                     "url ('https://img.freepik.com/free-vector/simple-dark-premium-burger-food-menu_52683-65509.jpg?t=st=1736509955~exp=1736513555~hmac=2a5e40afc539fb3042570257cdb10dcc919e7cc1e61c7ed3a770265d584785cf&w=740')"
+                     "url('https://cdn.pixabay.com/photo/2020/11/04/15/13/burger-5712704_960_720.jpg')"
                 }}>
                 </div>
                 
@@ -97,9 +98,10 @@ const Menuitem = () =>  {
                                                 <li
                                                     key={index}
                                                     className="flex items-center justify-center mb-6 transform transition-all duration-300  ease-in-out ">
-                                                        <img
+                                                        <Image
                                                         src={product.image}
                                                         alt={product.name}
+                                                        width={200} height={300}
                                                         className="w-2 h-40 sm:w-24 inline-block transition-transform duration-300 ease-in-out transform text-black"/>
                                                         <span className="ml-4 text-lg font-medium text-slate-600 ">{product.name} -  ${product.price}</span>
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 
 export default function Carousel() {
   return (
@@ -9,8 +10,9 @@ export default function Carousel() {
             <div className='col-span-2 sm:col-span-1 md:col-span-2 bg-gradient-to-r from-black to-gray-700 h-auto md:h-full flex flex-col '>
               <a href=''
               className='group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow'>
-                <img src='/burgerimg1.jpg' 
+                <Image src='/burgerimg1.jpg' 
                 alt='burger1'
+                width={200} height={300}
                 className='absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out '
                 />
                 <div className='absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5'>
@@ -24,8 +26,9 @@ export default function Carousel() {
             <div className='col-span-2 sm:col-span-1 md:col-span-2 bg-gradient-to-r from-black to-gray-700 '>
               <a href=''
               className='group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 mb-4'>
-                <img src='/burgerimg2.jpg'
+                <Image src='/burgerimg2.jpg'
                 alt='burger2'
+                width={200} height={300}
                 className='absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out '
                 />
                 <div className='absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5'>
@@ -38,8 +41,9 @@ export default function Carousel() {
               <div className='grid gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-2'>
                 <a href=''
                 className='group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4'>
-                  <img src='/burgerimg3.jpg'
+                  <Image src='/burgerimg3.jpg'
                    alt='burger3'
+                   width={200} height={300}
                    className='inset-0 h-full w-full object-cover  group-hover:scale-105 transition-transform duration-500 ease-in-out '/>
                    <div className='inset-0 bg-gradient-to-b from-grey-900/25 to-grey-5'></div>
                    <h3 className='z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-0xl'>
@@ -49,8 +53,9 @@ export default function Carousel() {
                 </a>
                 <a href=''
                 className='group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4'>
-                  <img src='/burgerimg4.jpg' 
+                  <Image src='/burgerimg4.jpg' 
                   alt='burger4'
+                  width={200} height={300}
                   className='inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out '/>
                   <div className='inset-0 bg-gradient-to-b from-grey-900/25 to-grey-5'></div>
                   <h3 className='z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-0xl'>
@@ -64,8 +69,9 @@ export default function Carousel() {
               <div className='col-span-2 sm:col-span-2 md:col-span-1 bg-gradient-to-r from-black to-grey-700 h-auto md:h-full flex flex-col '>
                 <a href=''
                 className='group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow'>
-                  <img src='/burgerimg5.jpg'
+                  <Image src='/burgerimg5.jpg'
                   alt='burger5'
+                  width={200} height={300}
                   className='inset-0 h-full w-full  group-hover:scale-105 transition-transform duration-500 ease-in-out '
                   />
                   <div className='inset-0 bg-gradient-to-b from-grey-900/25 to-grey-5'></div>

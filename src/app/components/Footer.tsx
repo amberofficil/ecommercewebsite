@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 
 export default function Footer() {
   return (
@@ -12,11 +13,11 @@ export default function Footer() {
         </nav>
         <div className='flex justify-center space-x-5 transition-transform duration-500 ease-in-out transform hover:scale-105'>
           <a href='https://facebook.com' target='blank' rel='nofollow noopenner'>
-          <img src='https://img.icons8.com/?size=100&id=118497&format=png&color=000000' height={30} width={30}  alt='facebooklogo'/>
+          <Image src='/facebook.png' height={30} width={30}  alt='facebooklogo'/>
           </a>
 
           <a href='https://instagram.com' target='blank' rel='nofollow noopenner'>
-          <img src='https://img.icons8.com/?size=100&id=32323&format=png&color=000000' height={30} width={30}  alt='instalogo'/>
+          <Image src='/instagram.png' height={30} width={30}  alt='instalogo'/>
           </a>
 
 
@@ -24,11 +25,11 @@ export default function Footer() {
 
 
           <a href='https://twitter.com' target='blank' rel='nofollow noopenner'>
-          <img src='https://img.icons8.com/?size=100&id=13963&format=png&color=000000' height={30} width={30}  alt='twitterlogo'/>
+          <Image src='/twitter.png' height={30} width={30}  alt='twitterlogo'/>
           </a>
 
           <a href='https://linkdin.com' target='blank' rel='nofollow noopenner'>
-          <img src='https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000' height={30} width={30}  alt='linkidinlogo'/>
+          <Image src='/linkedin.png' height={30} width={30}  alt='linkidinlogo'/>
           </a>
         </div>
         <p className='text-center hover:text-cyan-600 text-amber-500 font-medium mb-8'>2024 Amber. All Right Reserved.</p>

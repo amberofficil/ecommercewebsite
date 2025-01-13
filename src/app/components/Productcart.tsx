@@ -18,7 +18,7 @@ const ProductCard:React.FC<ProductCardProps> = ({
       <Image
       src={image}
       alt={name}
-      width={100} height={100}
+      width={300} height={300}
       className='w-full h-56 object-cover rounded-md mb-4 transform transition-all duration-300 ease-in-out hover:scale-110 ' />
       <h3 className='text-xl font-semibold mb-2'>{name}</h3>
       <p className='text-lg text-slate-600 mb-4'>{price}</p>

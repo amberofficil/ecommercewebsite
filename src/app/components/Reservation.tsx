@@ -9,7 +9,7 @@ const ReservationSection = () => {
       <h2 className='text-3xl font-bold mb-6 text-white'>Make A Reservation</h2>
       <form className='max-w-md mx-auto'>
         <div className='mb-4 text-white'>
-            <input type='text'
+            <input type='name'
             placeholder='Your Name'
             className='w-full p-3 border border-gray-300 rounded-md'
             required />

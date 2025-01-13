@@ -9,7 +9,7 @@ export default function Banner() {
       <Image
       src={'/bannerimg.jpg'}
       alt='delicious burger banner'
-      width={200} height={300}
+      width={300} height={100}
       
       
       className='w-full h-full object-cover'/>

@@ -8,9 +8,9 @@ const ReservationSection = () => {
      <div className='container mx-auto text-center'>
       <h2 className='text-3xl font-bold mb-6 text-white'>Make A Reservation</h2>
       <form className='max-w-md mx-auto'>
-        <div className='mb-4'>
+        <div className='mb-4text-white'>
             <input type='name'
-            placeholder='Your Name'
+            placeholder= 'Your Name'
             className='w-full p-3 border border-gray-300 rounded-md'
             required />
         </div>

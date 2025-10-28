@@ -10,7 +10,7 @@ const ReservationSection = () => {
       <form className='max-w-md mx-auto'>
         <div className='mb-4 text-white'>
             <input type='name'
-            placeholder='Your Name'
+            placeholder='YourName'
             className='w-full p-3 border border-gray-300 rounded-md'
             required />
         </div>

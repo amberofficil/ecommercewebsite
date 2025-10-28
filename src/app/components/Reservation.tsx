@@ -14,6 +14,7 @@ const ReservationSection = () => {
             className='w-full p-3 border border-gray-300 rounded-md'
             required />
         </div>
+        
         <div className='mb-4'>
             <input type='email'
             placeholder='Your Email'
